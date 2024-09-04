@@ -100,6 +100,12 @@ main {
   color: var(--white);
   text-decoration: none;
   font-weight: 600;
+  transition: background-color 0.15s ease-in-out, color 0.15s ease-in-out;
+}
+
+.social-link:hover {
+  background-color: var(--green);
+  color: var(--grey-700);
 }
 
 @media (min-width: 426px) {
